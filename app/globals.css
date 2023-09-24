@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #ecf5e8;
+  --main-theme-color: #66a76f;
+}
+
+body {
+  overflow-x: hidden;
+  height: calc(100vh - 80px);
+  position: relative;
+}
+
+.move-left {
+  left: -27% !important;
+}
+
+.hide-title {
+  opacity: 0;
+}
