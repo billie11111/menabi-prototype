@@ -20,9 +20,14 @@ const Wrapper = styled.header`
     align-items: center;
     border-left: 1px solid red;
     border-right: 1px solid red;
+  }
 
-    & > h1 {}
-    & > nav {}
+  @media (max-width: 1440px) {
+    padding: 0 20px;
+
+    .inner {
+      width: 100%;
+    }
   }
 `;
 

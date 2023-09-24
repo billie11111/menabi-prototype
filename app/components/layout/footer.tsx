@@ -17,6 +17,15 @@ const Wrapper = styled.footer`
       align-self: center;
     }
   }
+
+  @media (max-width: 1440px) {
+    background-color: #f5f5f5;
+
+    .inner {
+      width: 696px;
+      border: 1px solid red;
+    }
+  }
 `;
 
 export default function Footer() {
